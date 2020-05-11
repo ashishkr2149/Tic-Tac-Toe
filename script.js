@@ -63,8 +63,8 @@ btn.onclick = function(){
 	rdv.forEach(function(xyz){
 		if(xyz.checked){
 			value=xyz.value;
+			status.innerHTML = currentPlayer();
 		}
-	status.innerHTML = currentPlayer();
 	})
 }
 
