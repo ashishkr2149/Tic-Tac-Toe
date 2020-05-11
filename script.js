@@ -23,7 +23,7 @@ let gameState = ["", "", "", "", "", "", "", "", "", ];
 
 const currentPlayer = () => `It's ${value}'s Turn`;
 const winningMessage = () => `${value} has Won!!!`;
-const drawMessage = () => `${value} has Won!!!`;
+const drawMessage = () => `Match Draw!`;
 
 function cellClicked(clickedCell,clickedCellIndex){
 	gameState[clickedCellIndex] = value;
